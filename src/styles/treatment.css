@@ -11,7 +11,7 @@
     background-color: #EFECE2;
   }
   
-  .container {
+  .container-head {
     position: relative;
     max-width: 1552px;
     height: 633.09px;
@@ -21,13 +21,13 @@
   }
   
   /* Background Triangle */
-  .container::before {
+  .container-head::before {
     content: "";
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 20vw solid transparent;
-    border-right: 20vw solid transparent;
+    border-left: 22vw solid transparent;
+    border-right: 22vw solid transparent;
     border-bottom: 75vh solid #EAEAEA;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -54,7 +54,8 @@
   
   .circle a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 22px;
+    font-family: Montserrat;
     color: black;
   }
   
@@ -77,18 +78,27 @@
     background-color: black;
   }
   
-  /* Text */
-  .text {
+
+  /* text  */
+  .text-container {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 75%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 80%; 
+    line-height: 1.5; 
   }
   
-  .text h1 {
-    font-size: 48px;
-    line-height: 1.2;
-    color: black;
+  .text-container p {
+    font-size: 68px; 
+    color: black; 
+    margin: 5px 0; 
   }
   
+
+  /*Eye-container*/
+  .eye-container {
+    height: 200px;
+    position: absolute;
+  }

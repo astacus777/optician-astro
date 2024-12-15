@@ -4,7 +4,11 @@ export default {
     './src/**/*.{astro,html,js,jsx,ts,tsx}', // Dodaj wszystkie pliki, gdzie używasz klas Tailwind
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'], // Dodaj Montserrat jako font główny
+      },
+    },
   },
   plugins: [],
 }
