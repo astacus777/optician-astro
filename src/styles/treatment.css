@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Reset */
 * {
@@ -11,7 +8,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #EFECE2;
   }
   
   .container {
@@ -21,6 +18,20 @@
     margin: 0 auto;
     background-color: white;
     overflow: hidden;
+  }
+  
+  /* Background Triangle */
+  .container::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;
+    border-bottom: 75vh solid #EAEAEA;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
   }
   
   /* Circle */
@@ -66,4 +77,18 @@
     background-color: black;
   }
   
+  /* Text */
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: black;
+  }
   
