@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'], // Dodaj Montserrat jako font główny
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['"Times New Roman"', 'Times', 'serif'],
       },
     },
   },
