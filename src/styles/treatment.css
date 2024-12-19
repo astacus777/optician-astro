@@ -118,3 +118,20 @@
     color: black; 
     margin: 5px 0; 
   }
+
+  .eye-background {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    clip-path: path('M 0 250 Q 500 -200, 1000 250 Q 500 700, 0 250');
+    overflow: hidden; 
+    background-color: #F5F3EB;
+}
+.image-inside {
+  width: 50%;
+  height: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
