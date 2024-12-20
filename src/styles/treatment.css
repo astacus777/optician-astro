@@ -7,14 +7,14 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
     background-color: #EFECE2;
   }
   
   .container-head {
     position: relative;
     max-width: 1552px;
-    height: 633.09px;
+    height: 634px;
     margin: 0 auto;
     background-color: white;
     overflow: hidden;
@@ -91,7 +91,7 @@
   }
   
   .text-container p {
-    font-size: 6.5vw; 
+    font-size: 6vw; 
     color: black; 
   }
   .span-badania {
@@ -114,7 +114,7 @@
   
   }
   .eye-container p {
-    font-size: 6vw; 
+    font-size: 5.8vw; 
     color: black; 
     margin: 5px 0; 
   }
@@ -230,17 +230,49 @@
   background-color: #F5F3EB;
 }
 .big-eye-container-2 {
+  padding: 20px;
   width: 32%;
-  height: 90%;
+  height: 80%;
   position: absolute;
   top: 5%;
   left: 34.5%;
-  border: 2px solid black;
 }
 .badania {
   font-family: Roboto;
   font-weight: 50;
 }
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 888px;
+  height: 610px;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.grid-item2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.icon2 {
+  width: 52px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.grid-item2 p {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
 
 /* bottom  - footer */
 
