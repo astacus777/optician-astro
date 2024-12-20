@@ -8,6 +8,7 @@ export default {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         serif: ['"Times New Roman"', 'Times', 'serif'],
+        thin: ['Roboto', 'sans-serif'],
       },
     },
   },

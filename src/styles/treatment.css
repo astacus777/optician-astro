@@ -215,8 +215,28 @@
 }
 .text-top-2 {
   display: flex;
-  justify-content: flex-end;
 }
 .text-botton-2 {
   font-size: 15px;
+}
+/* big eye container */
+.big-eye-background {
+  width: 2824px;
+  height: 1167px;
+  position: relative;
+  clip-path: path('M 0 586 Q 1421 -600, 2842 586 Q 1421 1800, 0 586');
+   
+  background-color: #F5F3EB;
+}
+.big-eye-container-2 {
+  width: 32%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 34.5%;
+  border: 2px solid black;
+}
+.badania {
+  font-family: Roboto;
+  font-weight: 50;
 }
