@@ -9,6 +9,7 @@ export default {
         sans: ['Montserrat', 'sans-serif'],
         serif: ['"Times New Roman"', 'Times', 'serif'],
         thin: ['Roboto', 'sans-serif'],
+        recoleta: ['"Recoleta Alt"', 'sans-serif'],
       },
     },
   },

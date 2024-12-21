@@ -1,18 +1,28 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Montserrat, sans-serif;
-    background-color: #EFECE2;
-  }
-  .half-eye-container {
-    display: flex;
-    gap: 5%;
-  }
-.bg-left {
-    margin-top: 10%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+body {
+	font-family: Montserrat, sans-serif;
+	background-color: #efece2;
+}
+
+
+/* background */
+
+.half-eye-container {
+	max-width: 1552px;
+	display: flex;
+	justify-content: center;
+}
+.bg-left {
+	margin-top: 10%;
+}
+.shop-h1 {
+    display: flex;
+    justify-content: flex-end;
+}
+

@@ -1,7 +1,38 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import '../styles/contact.css';
 ---
 <Layout>
-  <h1>Kontakt</h1>
-  <p>Skontaktuj się z nami pod adresem: kontakt@example.com</p>
+  <body>
+    <div class="container">
+      <div class="link-container">
+          <div class="top-right-circle">
+        <a href="/" class="home-link">back</a>
+          </div>
+        <div class="bold-line"></div>
+        <div class="half-circle"></div>
+      </div>
+      
+      <h1 class="title">KONTAKT</h1>
+      <div class="map-section">
+        <img src="map.png" alt="Mapa" class="map-image">
+      </div>
+      <div class="bottom-section">
+        <div class="left-container">
+          <div class="column">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Consectetur adipiscing elit.</p>
+          </div>
+          <div class="column">
+            <p>Vestibulum ante ipsum.</p>
+            <p>In faucibus orci luctus.</p>
+          </div>
+        </div>
+        <div class="right-container">
+          <h2>Zadzwoń</h2>
+          <p>509 XXX XXX</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </Layout>
