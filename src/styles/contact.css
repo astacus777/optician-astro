@@ -4,6 +4,7 @@ body {
     background-color: #efece2;
   }
   
+/* page container */
   
   .container {
     width: 1552px;
@@ -15,6 +16,8 @@ body {
     flex-direction: column;
   }
 
+  /* link in circle */
+
   .link-container {
     position: absolute;
     display: flex;
@@ -24,7 +27,6 @@ body {
   }
   
   .top-right-circle {
-    
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -57,13 +59,18 @@ body {
     margin-bottom: 37px;
     background-color: black;
   }
+
+  /* title */
   
   .title {
     text-align: left;
     font-size: 110px;
     margin: 20px;
+    padding-left: 10rem;
     font-family: Rancho;
   }
+
+  /* map */
   
   .map-section {
     margin-top: 2rem;
@@ -78,6 +85,8 @@ body {
     max-width: 100%;
     height: auto;
   }
+
+  /* info container */
 
   .main-container {
     max-width: 1198px;
@@ -100,6 +109,12 @@ body {
   
   .column {
     flex: 1;
+    flex-direction: row;
+  }
+  .column-contant {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
   }
   
   .right-container {
@@ -111,5 +126,50 @@ body {
   .right-container p {
     font-size: 80px;
   }
+  /* footer */
+  .footer {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  .logo-rights {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .logo-rights img {
+    width: 213px;
+    height: 44px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .all-rights {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   
+  .dis-logo {
+    display: flex;
+    gap: 20px;
+   
+  }
+  .dis-logo img {
+    width: 41px;
+    height: 21px;
+  }
+  /* footer img */
+  .footer-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    overflow: hidden;
+  }
   
+  .footer-img .half-img {
+    position: relative;
+    height: 300px; 
+    object-fit: cover;
+  }
