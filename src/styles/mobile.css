@@ -22,3 +22,21 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
   }
+
+
+  .background-section {
+    width: 100%;
+    height: 200px;
+    /* border-radius: 100% 100% 0 0 / 50% 50% 0 0; */
+     background-color: #F5F3EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-bottom {
+    max-width: 768px;
+    height: 250px;
+    clip-path: path('M 0 250 Q 384 -100, 768 250 Q 384 600, 0 250');
+    overflow: hidden; 
+    background-color: #F5F3EB;
+}
