@@ -191,15 +191,20 @@ body {
   /* right text contsiner */
   .about-us-container {
     position: absolute;
-    margin-top: 2rem;
     top: 20%;
     right: 0;
-    border: 2px solid black;
-    width: 50%;
+    width: 45%;
     height: 880px;
 
   }
   .title-about-us {
     font-size: 110px;
     font-weight: 100;
+    font-family: Recoleta Alt;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .about-us-text1 {
+    font-size: 18px;
+    max-width: 502px;
   }
