@@ -173,3 +173,33 @@ body {
     height: 300px; 
     object-fit: cover;
   }
+  /* about-us page */
+
+  /* left img container */
+  .bg-img-contaniner {
+    margin-top: 2rem;
+    position: absolute;
+    background-image: url(Group38.png);
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 880px;
+    background-size: 100%;
+    background-position:  right center;
+    background-repeat: no-repeat;
+  }
+  /* right text contsiner */
+  .about-us-container {
+    position: absolute;
+    margin-top: 2rem;
+    top: 20%;
+    right: 0;
+    border: 2px solid black;
+    width: 50%;
+    height: 880px;
+
+  }
+  .title-about-us {
+    font-size: 110px;
+    font-weight: 100;
+  }
