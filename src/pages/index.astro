@@ -6,5 +6,27 @@ import '../styles/global.css';
 ---
 
 <Layout>
+    <script>
+        function handleResize() {
+            if (window.innerWidth <= 768) {
+                if (!window.location.href.includes('/mobile')) {
+                    window.location.href = '/mobile';
+                }
+            } else {
+                if (!window.location.href.includes('/')) {
+                    window.location.href = '/';
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            handleResize();
+            window.addEventListener('resize', handleResize);
+        });
+
+        window.addEventListener('beforeunload', () => {
+            window.removeEventListener('resize', handleResize);
+        });
+    </script>
 	<Welcome />
 </Layout>
