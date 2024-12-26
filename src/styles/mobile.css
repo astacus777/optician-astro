@@ -21,6 +21,7 @@ body {
   .link-container a {
     font-size: 1.5rem;
     font-weight: bold;
+    
   }
 
 
@@ -30,7 +31,6 @@ body {
     /* border-radius: 100% 100% 0 0 / 50% 50% 0 0; */
      background-color: #F5F3EB;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .background-bottom {
@@ -38,5 +38,40 @@ body {
     height: 250px;
     clip-path: path('M 0 250 Q 384 -100, 768 250 Q 384 600, 0 250');
     overflow: hidden; 
+    background-color: #F5F3EB;
+}
+/* half eye container */
+.background-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto; 
+    padding-left: 80px;
+}
+
+.image-container {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 200%;
+    height: auto;
+    position: relative;
+    right: -50%;
+}
+/* text content */
+.text-contanier {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F3EB;
+}
+.text-contant {
+    max-width: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #F5F3EB;
 }
