@@ -21,7 +21,7 @@ body {
   .link-container a {
     font-size: 1.5rem;
     font-weight: bold;
-    
+
   }
 
 
@@ -33,9 +33,16 @@ body {
     display: flex;
     justify-content: center;
 }
-.background-bottom {
+.background-top {
     max-width: 768px;
     height: 250px;
+    clip-path: path('M 0 250 Q 384 -100, 768 250 Q 384 600, 0 250');
+    overflow: hidden; 
+    background-color: #F5F3EB;
+}
+.background-bottom {
+    max-width: 768px;
+    height: 500px;
     clip-path: path('M 0 250 Q 384 -100, 768 250 Q 384 600, 0 250');
     overflow: hidden; 
     background-color: #F5F3EB;
@@ -74,4 +81,11 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #F5F3EB;
+}
+.header-container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
