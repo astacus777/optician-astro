@@ -96,9 +96,9 @@
     left: 1px;
     width: 100%;
     height: 100%;
-    background-size: contain; /* Skaluje obraz, aby wypełnił cały kontener */
-    background-position: center; /* Ustawia obraz w centrum kontenera */
-    background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
    background-image: url(left-eye.png);
 }
 
@@ -108,8 +108,8 @@
     right: 0;
     width: 100%;
     height: 100vh;
-    background-size: contain; /* Skaluje obraz, aby wypełnił cały kontener */
-    background-position: center; /* Ustawia obraz w centrum kontenera */
-    background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
    background-image: url(right-eye.png);
 }
