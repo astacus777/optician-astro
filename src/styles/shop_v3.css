@@ -17,9 +17,12 @@ body {
   
   .header {
     grid-area: header;
+    display: flex;
+    flex-direction: row;
   }
   .font-xl {
     font-size: 75px;
+    margin-left: 10rem;
   }
   
   .right-aside {
@@ -54,3 +57,46 @@ body {
         "right-aside";
     }
   }
+
+  /* back button */
+  .shapes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border: 7px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: black;
+  }
+  
+  /* Half-Circle */
+  .half-circle {
+    width: 40px;
+    height: 80px;
+    border: 7px solid black;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-left: none;
+  }
+  /* Line between*/
+
+  .bold-line {
+    width: 15px;
+    height: 7px;
+    margin-top: 36px;
+    margin-bottom: 37px;
+    background-color: black;
+  }
+  
